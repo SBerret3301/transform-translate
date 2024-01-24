@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Colored Blocks with Transformations</title>
+</head>
+<style>
+    /* Styles for the container div and colored blocks */
+    div {
+        width: 200px; /* Set the width of the container */
+        height: 200px; /* Set the height of the container */
+        border: 1px solid black; /* Apply a black border around the container */
+    }
+
+    /* Individual block styles with background color and translations */
+    .a {
+        background-color: rgba(255, 0, 0, 0.822); /* Set a red background color with alpha transparency */
+        transform: translate(150px, 50px); /* Apply a translation to move the block */
+    }
+
+    .b {
+        background-color: rgba(9, 255, 0, 0.623); /* Set a green background color with alpha transparency */
+        transform: translate(100px, -60px); /* Apply a translation to move the block */
+    }
+
+    .c {
+        background-color: rgba(0, 17, 255, 0.589); /* Set a blue background color with alpha transparency */
+        transform: translate(250px, -300px); /* Apply a translation to move the block */
+    }
+</style>
+<body>
+    <!-- Individual colored blocks with class names -->
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>
